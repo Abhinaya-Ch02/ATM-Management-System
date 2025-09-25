@@ -36,21 +36,23 @@ The ATM Management System demonstrates:
 ---
 
 ## 📂 Project Structure
+```text
 DotnetProject/
-├─ Controllers/              # API/Controller files (if used for routing or logic)
-├─ Data/                      # DbContext and EF Core configuration
+├─ Controllers/               # API/Controller files (if used for routing or logic)
+├─ Data/                       # DbContext and EF Core configuration
 │   └─ AppDbContext.cs
-├─ Models/                    # Entity classes (ATM, Customer, BankAccount, etc.)
-├─ Properties/                # Project properties and launch settings
-├─ bin/Debug/net8.0/          # Build output (should be ignored in .gitignore)
-├─ obj/                        # Intermediate build files (should be ignored in .gitignore)
-├─ DotnetProject.csproj        # Main project file
-├─ DotnetProject.csproj.user   # User-specific settings
-├─ DotnetProject.http          # HTTP request examples (if any)
-├─ Program.cs                  # Entry point with CRUD operations
-├─ WeatherForecast.cs          # Sample class/template
-├─ appsettings.json            # Database connection & configuration
-└─ appsettings.Development.json# Development-specific settings
+├─ Models/                     # Entity classes (ATM, Customer, BankAccount, etc.)
+├─ Properties/                 # Project properties and launch settings
+├─ bin/Debug/net8.0/           # Build output (should be ignored in .gitignore)
+├─ obj/                         # Intermediate build files (should be ignored in .gitignore)
+├─ DotnetProject.csproj         # Main project file
+├─ DotnetProject.csproj.user    # User-specific settings
+├─ DotnetProject.http           # HTTP request examples (if any)
+├─ Program.cs                   # Entry point with CRUD operations
+├─ WeatherForecast.cs           # Sample class/template
+├─ appsettings.json             # Database connection & configuration
+└─ appsettings.Development.json # Development-specific settings
+
 
 
 

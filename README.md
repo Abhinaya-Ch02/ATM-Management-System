@@ -36,3 +36,38 @@ The ATM Management System demonstrates:
 ---
 
 ## 📂 Project Structure
+DotnetProject/
+├─ Controllers/
+├─ Data/ # DbContext and configuration
+├─ Models/ # Entity classes (ATM, Customer, BankAccount, etc.)
+├─ Properties/
+├─ Program.cs # Entry point with CRUD demos
+├─ appsettings.json # Database connection string
+└─ ...
+
+
+---
+
+## 🗄️ Database Design
+Main entities and relationships:
+- **ATM** – Location, CashBalance
+- **Customer** – Name, Pin, AccountBalance
+- **BankAccount** – One-to-One with Customer
+- **Transaction** – One-to-Many with both ATM and Customer
+- **ATMCard** – Many-to-Many with Customer (via CustomerATMCard)
+
+---
+
+## ⚡ Getting Started
+
+### Prerequisites
+- Visual Studio 2022 (or later)
+- .NET 8.0 SDK
+- SQL Server / LocalDB
+- EF Core tools (`dotnet ef`)
+
+### Setup & Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Abhinaya-Ch02/ATM-Management-System.git
+   cd ATM-Management-System/DotnetProject
